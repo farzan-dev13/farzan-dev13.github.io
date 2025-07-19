@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farzan Afringan | TechOps Podcast</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <style>
+    @keyframes typing {
+      from {
+        width: 0
+      }
+
+      to {
+        width: 34ch
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent
+      }
+    }
+
+    .typewriter {
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 4px solid #10B981;
+      width: 0;
+      animation: typing 3s steps(34) forwards, blink .7s step-end infinite;
+    }
+
+    html,
+    body {
+      scrollbar-width: thin;
+      scrollbar-color: #00ffc3 #0e0e0e;
+    }
+  </style>
+
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="text-center py-10">
+    <h1 class="text-1xl sm:text-1xl md:text-2xl lg:text-3xl font-bold text-center">TechOps Hub  &mdash; A Practical Approach to Linux, Infrastructure, and Security</h1>
+    <p class="text-lg text-gray-400">Network | Linux | Security | Automation</p>
+    
+    <p class="text-center text-base text-gray-400 mt-4">
+  Deep technical insights in networking, Linux, cybersecurity, and datacenter operations &mdash; all in one hub
+</p>
+
+  </header>
+
+  <!-- Typing Animation Final -->
+  <div class="text-center text-xl font-mono text-green-400 mb-10 mx-auto  border-green-400 overflow-hidden">
+    <span class="typewriter">Farzan Afringan | Network Engineer</span>
+  </div>
+  <!-- Introduction -->
+  <section class="max-w-3xl mx-auto px-6 text-center mb-16">
+    <h2 class="text-2xl font-semibold mb-4">Welcome to the world of real IT</h2>
+    <p class="text-gray-300 leading-relaxed">
+      This platform shares practical insights and hands-on guides about Linux, infrastructure, security, and real-world IT operations. From troubleshooting to automation, everything here is built to help professionals and enthusiasts grow their technical skills.
+
+    </p>
+  </section>
+
+  <!-- Episodes Section -->
+  <section class="max-w-5xl mx-auto px-6">
+    <h2 class="text-2xl font-semibold text-center mb-8">Latest Technical Insights</h2>
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="bg-gray-800 p-5 rounded-xl shadow-md hover:scale-105 transition transform duration-300">
+        <!-- PIC-->
+        <img src="img/linux-check-cover.png" alt="Article Cover" class="rounded-md mb-4 w-full h-40 object-cover">
+
+        <!--title article-->
+        <h3 class="text-white text-lg font-semibold mb-1">
+          How to Investigate a Compromised Linux Server
+        </h3>
+
+        <!-- summary-->
+        <p class="text-gray-400 text-sm mb-3">
+          Step-by-step post-attack checklist to clean up and secure your Linux system after intrusion.
+        </p>
+
+        <!-- 🔖 Tags-->
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="text-xs bg-green-700 text-white px-2 py-1 rounded-full">#Linux</span>
+          <span class="text-xs bg-indigo-700 text-white px-2 py-1 rounded-full">#Security</span>
+          <span class="text-xs bg-yellow-600 text-white px-2 py-1 rounded-full">#IncidentResponse</span>
+        </div>
+
+        <!-- LInk to g d -->
+        <a href="https://dev.to/farzan/investigating-linux-server" target="_blank"
+          class="text-sm text-green-400 hover:underline">Read on dev.to →</a>
+      </div>
+
+      <div class="bg-gray-800 p-5 rounded-xl shadow-md hover:scale-105 transition transform duration-300">
+        <!-- PIC-->
+        <img src="https://github.com/farzan-dev13/disk-io-analysis/raw/main/assets/disk2.png" alt="Article Cover"
+          class="rounded-md mb-4 w-full h-40 object-cover">
+
+        <!-- Title-->
+        <h3 class="text-white text-lg font-semibold mb-1">
+          Investigating High Disk I/O in Linux - Using iostat, iotop, and Visual Analysis
+        </h3>
+
+        <!-- summary-->
+        <p class="text-gray-400 text-sm mb-3">
+          What is Disk I/O and Why Monitor It.
+        </p>
+
+        <!-- 🔖 Tags-->
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="text-xs bg-green-700 text-white px-2 py-1 rounded-full">#Linux</span>
+          <span class="text-xs bg-indigo-700 text-white px-2 py-1 rounded-full">#Security</span>
+          <span class="text-xs bg-yellow-600 text-white px-2 py-1 rounded-full">#IncidentResponse</span>
+        </div>
+
+        <!-- Link to-->
+        <a href="https://github.com/farzan-dev13/disk-io-analysis/blob/main/analyze-disk-io.md" target="_blank"
+          class="text-sm text-green-400 hover:underline">Read on GitHub →</a>
+      </div>
+
+      <div class="bg-gray-800 p-5 rounded-xl shadow-md hover:scale-105 transition transform duration-300">
+        <!-- PIC-->
+        <img src="https://github.com/farzan-dev13/investigate-compromised-linux-server/raw/main/assets/banner.png"
+          alt="Article Cover" class="rounded-md mb-4 w-full h-40 object-cover">
+
+        <!-- Title-->
+        <h3 class="text-white text-lg font-semibold mb-1">
+          How to Investigate a Compromised Linux Server
+        </h3>
+
+        <!-- SUmmary-->
+        <p class="text-gray-400 text-sm mb-3">
+          Step-by-step post-attack checklist to clean up and secure your Linux system after intrusion.
+        </p>
+
+        <!-- 🔖 Tags-->
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="text-xs bg-green-700 text-white px-2 py-1 rounded-full">#Linux</span>
+          <span class="text-xs bg-indigo-700 text-white px-2 py-1 rounded-full">#Security</span>
+          <span class="text-xs bg-yellow-600 text-white px-2 py-1 rounded-full">#IncidentResponse</span>
+        </div>
+
+        <!-- Link to -->
+        <a href="https://dev.to/farzandev13/-how-to-investigate-a-compromised-linux-server-1f78" target="_blank"
+          class="text-sm text-green-400 hover:underline">Read on dev.to →</a>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Host Section -->
+  <section class="max-w-4xl mx-auto px-6 mt-20 text-center">
+    <h2 class="text-2xl font-semibold mb-6">Meet the Host</h2>
+
+    <img src="https://afringan.com/he/fa_afringan_datacenter_tela_is_mid.jpg" alt="Farzan Afringan"
+      class="w-40 h-40 mx-auto rounded-full shadow-lg object-cover mb-6 rounded-full shadow-lg ring-2 ring-blue-500" />
+
+    <p class="text-gray-300 max-w-xl mx-auto">
+  
+Farzan Afringan shares deep insights into real-world IT &mdash; covering datacenter hardware, networking, Linux, automation, and cybersecurity. Each episode turns hands-on experience into practical lessons for engineers, sysadmins, and tech professionals.
+
+He is a Network & Security Engineer with a passion for simplifying complex infrastructure and sharing actionable knowledge.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-20 text-center text-sm text-gray-500 py-6 border-t border-gray-700">
+    <p>&copy; 2025 Farzan Afringan — All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
